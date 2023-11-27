@@ -20,4 +20,4 @@ spring:
       path: /h2-console
 logging:
   level:
-    com.ejercicioJava.microservicio.controllers: DEBUG
+    com.ejercicioyava.microservicio.controllers: DEBUG
