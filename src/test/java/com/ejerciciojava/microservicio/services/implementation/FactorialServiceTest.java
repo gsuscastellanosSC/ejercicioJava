@@ -33,7 +33,7 @@ class FactorialServiceTest {
 
     @Test
     void calcularFactorial_NumeroNegativo_DebeLanzarExcepcion() {
-        int numero = -5; // Número negativo
+        int numero = -5;
         assertThrows(FactorialExeption.class, () ->
                 factorialService.calcularFactorial(numero));
     }
