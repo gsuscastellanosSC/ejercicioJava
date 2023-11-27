@@ -1,6 +1,6 @@
 package com.ejerciciojava.microservicio.controllers;
 
-import com.ejerciciojava.microservicio.dtos.responses.SaludoDTO;
+import com.ejerciciojava.microservicio.dtos.SaludoDTO;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

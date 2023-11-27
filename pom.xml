@@ -52,6 +52,14 @@
 				<groupId>org.jacoco</groupId>
 				<artifactId>jacoco-maven-plugin</artifactId>
 				<version>0.8.7</version>
+				<configuration>
+					<excludes>
+						<exclude>com/ejerciciojava/microservicio/jpa/**</exclude>
+						<exclude>com/ejerciciojava/microservicio/dtos/**</exclude>
+						<exclude>com/ejerciciojava/microservicio/constants/**</exclude>
+						<exclude>com/ejerciciojava/microservicio/EjercicioJavaApplication.*</exclude>
+					</excludes>
+				</configuration>
 				<executions>
 					<execution>
 						<id>default-prepare-agent</id>

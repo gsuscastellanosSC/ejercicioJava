@@ -1,6 +1,6 @@
 package com.ejerciciojava.microservicio.controllers;
 
-import com.ejerciciojava.microservicio.dtos.responses.ResultadoFactorialDTO;
+import com.ejerciciojava.microservicio.dtos.ResultadoFactorialDTO;
 import com.ejerciciojava.microservicio.services.Factorial;
 import com.ejerciciojava.microservicio.services.implementation.FactorialService;
 import org.springframework.http.ResponseEntity;

@@ -1,6 +1,6 @@
 package com.ejerciciojava.microservicio.controllers;
 
-import com.ejerciciojava.microservicio.dtos.responses.ClienteDTO;
+import com.ejerciciojava.microservicio.dtos.ClienteDTO;
 import com.ejerciciojava.microservicio.jpa.entities.ClienteEntity;
 import com.ejerciciojava.microservicio.services.ValidacionesCliente;
 import org.springframework.web.bind.annotation.*;
