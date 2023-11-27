@@ -57,6 +57,8 @@
 						<exclude>com/ejerciciojava/microservicio/jpa/**</exclude>
 						<exclude>com/ejerciciojava/microservicio/dtos/**</exclude>
 						<exclude>com/ejerciciojava/microservicio/constants/**</exclude>
+						<exclude>com/ejerciciojava/microservicio/exceptions/**</exclude>
+						<exclude>com/ejerciciojava/microservicio/utils/**</exclude>
 						<exclude>com/ejerciciojava/microservicio/EjercicioJavaApplication.*</exclude>
 					</excludes>
 				</configuration>
