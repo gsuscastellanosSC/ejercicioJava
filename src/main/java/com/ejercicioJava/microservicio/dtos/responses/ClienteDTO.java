@@ -1,4 +1,4 @@
-package com.ejercicioJava.microservicio.dtos;
+package com.ejercicioJava.microservicio.dtos.responses;
 
 import lombok.Data;
 
